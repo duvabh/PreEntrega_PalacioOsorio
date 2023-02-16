@@ -7,13 +7,13 @@ export const Categorys = () => {
         Categorias
       </button>
       <div className='dropdown-menu' aria-labelledby='btnGroupDrop1'>
-        <Link className='dropdown-item' to={'/category/1'}>
+        <Link className='dropdown-item' to={`/category/batman`}>
           Batman
         </Link>
-        <Link className='dropdown-item' to={'/category/2'}>
+        <Link className='dropdown-item' to={'/category/ironman'}>
           Iroman
         </Link>
-        <Link className='dropdown-item' to={'/category/3'}>
+        <Link className='dropdown-item' to={'/category/spiderman'}>
           Spiderman
         </Link>
       </div>
