@@ -1,0 +1,92 @@
+.row {
+    --bs-gutter-x: 0.1rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 300px;
+    max-width: 300px;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.cardProduct{
+    width: 18rem;
+    margin: 5px;
+}
+
+.cardProduct img {
+    height: 290px;
+    width: 250px;
+    margin: auto;
+    
+}
+.cardProducts {
+    margin: 5px;
+    align-items: center;
+    justify-content: center;  
+}
+
+.cardBody {
+    margin-bottom: 2px;
+}
+
+.cardBody h5 {
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cardBody p {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.cardBody p:nth-child(2){
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.cardBody p:nth-child(4){
+    margin-top: 10px;
+    margin-bottom:10px ;
+
+}
+
+.cardBody .btnCart {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border-color: rgba(0,0,0,.6);
+}
+
+.itemDetail {
+    max-width: 630px;
+    margin-top: 20px;
+}
+
+.itemDetailProd h5{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.itemCount {
+    width: 67%;
+}
+
+.itemCount .btnAddCart {
+    margin-left: 5xp;
+}
