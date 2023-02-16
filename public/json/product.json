@@ -1,50 +1,182 @@
 [
   {
     "id": 1,
-    "image": "/public/img/batman.png",
+    "idCategory": 1,
+    "image": "/batman.png",
     "name": "Camisa batman",
-    "price": 25.0,
+    "price": 25000,
     "sizes": "S, M, L, XL",
-    "brand": "DC comic"
+    "brand": "DC comic",
+    "stock": 5
   },
   {
     "id": 2,
-    "image": "/public/img/black_batman.png",
+    "idCategory": 1,
+    "image": "/black_batman.png",
     "name": "Camisa negra batman",
-    "price": 30.0,
+    "price": 30000,
     "sizes": "S, M, L, XL",
-    "brand": "DC comic"
+    "brand": "DC comic",
+    "stock": 9
   },
   {
     "id": 3,
-    "image": "/public/img/cap_marvel.png",
+    "idCategory": 2,
+    "image": "/cap_marvel.png",
     "name": "Camisa capitan marvel",
-    "price": 32.0,
+    "price": 32000,
     "sizes": "S, M, L, XL",
-    "brand": "MARVEL"
+    "brand": "MARVEL",
+    "stock": 5
   },
   {
     "id": 4,
-    "image": "/public/img/iroman.png",
+    "idCategory": 2,
+    "image": "iroman.png",
     "name": "Camisa ironman",
-    "price": 27.0,
+    "price": 27000,
     "sizes": "S, M, L, XL",
-    "brand": "MARVEL"
+    "brand": "MARVEL",
+    "stock": 7
   },
   {
     "id": 5,
-    "image": "/public/img/spider.png",
+    "idCategory": 3,
+    "image": "/spider.png",
     "name": "Camisa spiderman",
-    "price": 35.0,
+    "price": 35000,
     "sizes": "S, M, L, XL",
-    "brand": "MARVEL"
+    "brand": "MARVEL",
+    "stock": 10
   },
   {
-    "id": 5,
-    "image": "/public/img/venom.png",
+    "id": 6,
+    "idCategory": 3,
+    "image": "/venom.png",
     "name": "Camisa venom",
-    "price": 25.0,
+    "price": 25000,
     "sizes": "S, M, L, XL",
-    "brand": "MARVEL"
+    "brand": "MARVEL",
+    "stock": 3
+  },
+  {
+    "id": 7,
+    "idCategory": 1,
+    "image": "/batman.png",
+    "name": "Camisa batman",
+    "price": 25000,
+    "sizes": "S, M, L, XL",
+    "brand": "DC comic",
+    "stock": 11
+  },
+  {
+    "id": 8,
+    "idCategory": 1,
+    "image": "/black_batman.png",
+    "name": "Camisa negra batman",
+    "price": 30000,
+    "sizes": "S, M, L, XL",
+    "brand": "DC comic",
+    "stock": 9
+  },
+  {
+    "id": 9,
+    "idCategory": 2,
+    "image": "/cap_marvel.png",
+    "name": "Camisa capitan marvel",
+    "price": 32000,
+    "sizes": "S, M, L, XL",
+    "brand": "MARVEL",
+    "stock": 1
+  },
+  {
+    "id": 10,
+    "idCategory": 2,
+    "image": "iroman.png",
+    "name": "Camisa ironman",
+    "price": 27000,
+    "sizes": "S, M, L, XL",
+    "brand": "MARVEL",
+    "stock": 25
+  },
+  {
+    "id": 11,
+    "idCategory": 3,
+    "image": "/spider.png",
+    "name": "Camisa spiderman",
+    "price": 35000,
+    "sizes": "S, M, L, XL",
+    "brand": "MARVEL",
+    "stock": 6
+  },
+  {
+    "id": 12,
+    "idCategory": 3,
+    "image": "/venom.png",
+    "name": "Camisa venom",
+    "price": 25000,
+    "sizes": "S, M, L, XL",
+    "brand": "MARVEL",
+    "stock": 9
+  },
+  {
+    "id": 13,
+    "idCategory": 1,
+    "image": "/batman.png",
+    "name": "Camisa batman",
+    "price": 25000,
+    "sizes": "S, M, L, XL",
+    "brand": "DC comic",
+    "stock": 7
+  },
+  {
+    "id": 14,
+    "idCategory": 1,
+    "image": "/black_batman.png",
+    "name": "Camisa negra batman",
+    "price": 30000,
+    "sizes": "S, M, L, XL",
+    "brand": "DC comic",
+    "stock": 4
+  },
+  {
+    "id": 15,
+    "idCategory": 2,
+    "image": "/cap_marvel.png",
+    "name": "Camisa capitan marvel",
+    "price": 32000,
+    "sizes": "S, M, L, XL",
+    "brand": "MARVEL",
+    "stock": 9
+  },
+  {
+    "id": 16,
+    "idCategory": 2,
+    "image": "iroman.png",
+    "name": "Camisa ironman",
+    "price": 27000,
+    "sizes": "S, M, L, XL",
+    "brand": "MARVEL",
+    "stock": 1
+  },
+  {
+    "id": 17,
+    "idCategory": 3,
+    "image": "/spider.png",
+    "name": "Camisa spiderman",
+    "price": 35000,
+    "sizes": "S, M, L, XL",
+    "brand": "MARVEL",
+    "stock": 22
+  },
+  {
+    "id": 18,
+    "idCategory": 3,
+    "image": "/venom.png",
+    "name": "Camisa venom",
+    "price": 25000,
+    "sizes": "S, M, L, XL",
+    "brand": "MARVEL",
+    "stock": 19
   }
 ]

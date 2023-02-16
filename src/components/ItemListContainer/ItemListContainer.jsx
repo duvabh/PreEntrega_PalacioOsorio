@@ -1,11 +1,28 @@
 import { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 import { consultDB } from '../../utils/funciones.js'
 
+import { ItemList } from '../ItemList/ItemList.jsx'
+
 export const ItemListContainer = () => {
-  const [products, setProd] = useState([])
+  const { idCategory } = useParams()
+  const [products, setProducts] = useState([])
+  console.log(idCategory)
 
   useEffect(() => {
-    consultDB('/json/product.json').then((prods) => console.log(prods))
-  }, [])
-  return <></>
+    if (idCategory) {
+      consultDB('../json/product.json').then((prod) => {
+        const prods = prod.filter((prod) => prod.idCategory === parseInt(idCategory))
+        const items = ItemList({ prods })
+        setProducts(items)
+      })
+    } else {
+      consultDB('/json/product.json').then((prods) => {
+        const items = ItemList({ prods })
+        setProducts(items)
+      })
+    }
+  }, [idCategory])
+  return <div className='row cardProducts'>{products}</div>
 }
+ 
