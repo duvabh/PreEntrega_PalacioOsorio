@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export const Item = ({ item }) => {
   return (
     <div className='card mb-3 cardProduct border-ligth'>
@@ -7,7 +9,9 @@ export const Item = ({ item }) => {
         <p className='card-text'>${item.price}</p>
         <p className='card-text'>{item.sizes}</p>
         <p className='card-text'>{item.brand}</p>
-        <button className='btn btn-secundary btnCart'>Ver producto</button>
+        <Link className='nav-link' to={`/item/${item.id}`}>
+          <button className='btn btn-secundary btnCart'>Ver producto</button>
+        </Link>
       </div>
     </div>
   )

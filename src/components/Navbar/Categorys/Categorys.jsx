@@ -1,26 +1,22 @@
+import { Link } from 'react-router-dom'
+
 export const Categorys = () => {
   return (
     <div className='btn-group' role='group' aria-label='Button group with nested dropdown'>
-      <button type='button' className='btn btn-secondary'>
+      <button type='button' className='btn btn-secondary dropdown-toggle' data-bs-toggle='dropdown'>
         Categorias
       </button>
-      <div className='btn-group' role='group'>
-        <button id='btnGroupDrop1' type='button' className='btn btn-secondary dropdown-toggle' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false' />
-        <div className='dropdown-menu' aria-labelledby='btnGroupDrop1' style={{}}>
-          <a className='dropdown-item' href='/'>
-            Hombre
-          </a>
-          <a className='dropdown-item' href='/'>
-            Mujeres
-          </a>
-          <a className='dropdown-item' href='/'>
-            Niños
-          </a>
-          <a className='dropdown-item' href='/'>
-            Accesorios
-          </a>
-        </div>
+      <div className='dropdown-menu' aria-labelledby='btnGroupDrop1'>
+        <Link className='dropdown-item' to={'/category/1'}>
+          Batman
+        </Link>
+        <Link className='dropdown-item' to={'/category/2'}>
+          Iroman
+        </Link>
+        <Link className='dropdown-item' to={'/category/3'}>
+          Spiderman
+        </Link>
       </div>
     </div>
-  );
-};
+  )
+}
