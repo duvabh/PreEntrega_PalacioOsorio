@@ -12,7 +12,7 @@ export const ItemListContainer = () => {
   useEffect(() => {
     if (idCategory) {
       consultDB('../json/product.json').then((prod) => {
-        const prods = prod.filter((prod) => prod.idCategory === idCategory)
+        const prods = prod.filter((prod) => prod.idCategory === parseInt(idCategory))
         const items = ItemList({ prods })
         setProducts(items)
       })

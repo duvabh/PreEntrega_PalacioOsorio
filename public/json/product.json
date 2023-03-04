@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "idCategory": "batman",
+    "idCategory": 1,
     "image": "/black_batman.png",
     "name": "Camisa negra batman",
     "price": 30000,
