@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { consultDB } from '../../utils/funciones'
 import { useParams } from 'react-router-dom'
 import { ItemDetail } from '../ItemDetail/ItemDetail'
+import { useLigthModeContext } from '../../context/LightModeContext'
 
 export const ItemDetailContainer = () => {
   const { id } = useParams()
@@ -14,8 +15,9 @@ export const ItemDetailContainer = () => {
     })
   }, [id])
 
+  const { ligthMode } = useLigthModeContext()
   return (
-    <div className='card mb-3 container itemDetail'>
+    <div className={`card mb-3 container ${ligthMode ? 'itemDetailLight' : 'itemDetail'}`}>
       <ItemDetail prod={producto} />
     </div>
   )

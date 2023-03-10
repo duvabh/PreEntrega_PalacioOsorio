@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "idCategory": "batman",
+    "idCategory": 1,
     "image": "/batman.png",
     "name": "Camisa batman",
     "price": 25000,
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "idCategory": "ironman",
+    "idCategory": 2,
     "image": "/cap_marvel.png",
     "name": "Camisa capitan marvel",
     "price": 32000,
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "idCategory": "ironman",
+    "idCategory": 2,
     "image": "iroman.png",
     "name": "Camisa ironman",
     "price": 27000,
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "idCategory": "spiderman",
+    "idCategory": 3,
     "image": "/spider.png",
     "name": "Camisa spiderman",
     "price": 35000,
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "idCategory": "spiderman",
+    "idCategory": 3,
     "image": "/venom.png",
     "name": "Camisa venom",
     "price": 25000,
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "idCategory": "batman",
+    "idCategory": 1,
     "image": "/batman.png",
     "name": "Camisa batman",
     "price": 25000,
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "idCategory": "batman",
+    "idCategory": 1,
     "image": "/black_batman.png",
     "name": "Camisa negra batman",
     "price": 30000,
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "idCategory": "ironman",
+    "idCategory": 2,
     "image": "/cap_marvel.png",
     "name": "Camisa capitan marvel",
     "price": 32000,
@@ -91,7 +91,7 @@
   },
   {
     "id": 10,
-    "idCategory": "ironman",
+    "idCategory": 2,
     "image": "iroman.png",
     "name": "Camisa ironman",
     "price": 27000,
@@ -101,7 +101,7 @@
   },
   {
     "id": 11,
-    "idCategory": "spiderman",
+    "idCategory": 3,
     "image": "/spider.png",
     "name": "Camisa spiderman",
     "price": 35000,
@@ -111,7 +111,7 @@
   },
   {
     "id": 12,
-    "idCategory": "spiderman",
+    "idCategory": 3,
     "image": "/venom.png",
     "name": "Camisa venom",
     "price": 25000,
@@ -121,7 +121,7 @@
   },
   {
     "id": 13,
-    "idCategory": "batman",
+    "idCategory": 1,
     "image": "/batman.png",
     "name": "Camisa batman",
     "price": 25000,
@@ -131,7 +131,7 @@
   },
   {
     "id": 14,
-    "idCategory": "batman",
+    "idCategory": 1,
     "image": "/black_batman.png",
     "name": "Camisa negra batman",
     "price": 30000,
@@ -141,7 +141,7 @@
   },
   {
     "id": 15,
-    "idCategory": "ironman",
+    "idCategory": 2,
     "image": "/cap_marvel.png",
     "name": "Camisa capitan marvel",
     "price": 32000,
@@ -151,7 +151,7 @@
   },
   {
     "id": 16,
-    "idCategory": "ironman",
+    "idCategory": 2,
     "image": "iroman.png",
     "name": "Camisa ironman",
     "price": 27000,
@@ -161,7 +161,7 @@
   },
   {
     "id": 17,
-    "idCategory": "spiderman",
+    "idCategory": 3,
     "image": "/spider.png",
     "name": "Camisa spiderman",
     "price": 35000,
@@ -171,7 +171,7 @@
   },
   {
     "id": 18,
-    "idCategory": "spiderman",
+    "idCategory": 3,
     "image": "/venom.png",
     "name": "Camisa venom",
     "price": 25000,

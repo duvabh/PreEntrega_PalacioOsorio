@@ -1,16 +1,19 @@
 import { Link } from 'react-router-dom'
 import { ItemCount } from '../ItemCount/ItemCount'
 
+import { useLigthModeContext } from '../../context/LightModeContext'
+
 export const ItemDetail = ({ prod }) => {
   const onAdd = (quantity) => {
     console.log(quantity)
     console.log(prod)
   }
 
+  const { ligthMode } = useLigthModeContext()
   return (
-    <div className='row g-0 itemDetailProd'>
+    <div className={`row g-0 ${ligthMode ? 'itemDetailLight' : 'itemDetail'}`}>
       <div className='col-md-4'>
-        <img src={`/img/${prod.image}`} className='img-fluid rounded-start' alt={`Imagen de ${prod.nome}`} />
+        <img src={`/img/${prod.image}`} className='img-fluid rounded-start' alt={`Imagen de ${prod.name}`} />
       </div>
       <div className='col-md-8'>
         <div className='card-body'>

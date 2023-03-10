@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .row {
     --bs-gutter-x: 0.1rem;
     --bs-gutter-y: 0;
@@ -38,8 +42,47 @@
     margin-bottom: 2px;
 }
 
-.cardBody h5 {
+.cardBodyLight {
+    margin-bottom: 2px;
+    background: #e9ecef;
+    color: black;
+}
+
+.cardBodyLight h5 {
+    margin-left: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cardBodyLight p {
+    margin: 0;
     margin-left: 20px;
+}
+
+.cardBodyLight p:nth-child(2){
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.cardBodyLight p:nth-child(4){
+    margin-top: 10px;
+    margin-bottom:10px ;
+
+}
+
+.cardBodyLight .btnCart {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+
+
+.cardBody h5 {
+    margin-left: 18px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
@@ -75,6 +118,18 @@
     margin-top: 20px;
 }
 
+.itemDetailLight {
+    max-width: 630px;
+    margin-top: 20px;
+    background: lightgrey;
+    color: black;
+}
+
+.itemDetailBodyLight {
+    color: black;
+    background: lightgrey;
+}
+
 .itemDetailProd h5{
     font-size: 28px;
     font-weight: bold;
@@ -93,4 +148,9 @@
 
 .contForm {
     margin-top: 20px;
+}
+ 
+.ligthMode {
+    background-color: lightgray;
+    
 }
