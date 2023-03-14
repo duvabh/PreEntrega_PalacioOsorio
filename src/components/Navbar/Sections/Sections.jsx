@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
+import React from 'react'
 
 import { useLigthModeContext } from '../../../context/LightModeContext'
 
-export const Sections = () => {
+export const Sections = React.memo(() => {
   const { ligthMode } = useLigthModeContext()
   return (
     <>
@@ -25,4 +26,4 @@ export const Sections = () => {
       </li>
     </>
   )
-}
+})

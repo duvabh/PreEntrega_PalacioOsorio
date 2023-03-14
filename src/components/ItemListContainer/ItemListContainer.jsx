@@ -13,12 +13,12 @@ export const ItemListContainer = () => {
     if (idCategory) {
       consultDB('../json/product.json').then((prod) => {
         const prods = prod.filter((prod) => prod.idCategory === parseInt(idCategory))
-        const items = ItemList({ prods })
+        const items = <ItemList prods={prods} plantilla='Item' />
         setProducts(items)
       })
     } else {
       consultDB('/json/product.json').then((prods) => {
-        const items = ItemList({ prods })
+        const items = <ItemList prods={prods} plantilla='Item' />
         setProducts(items)
       })
     }
